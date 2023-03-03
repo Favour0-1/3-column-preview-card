@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex; 
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%)
+}
+
+.all-together-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    padding: 10rem;
+    margin-left: 35px;
+    
+}
+
+.sedans{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    background-color: hsl(31, 77%, 52%);
+} 
+
+.SUVs{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    background-color: hsl(184, 100%, 22%)
+}
+
+.Luxury{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    background-color: hsl(179, 100%, 13%)
+}
+
+.sedans-btn{
+    display: flex;
+    
+}
+
+.sedansclass{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    margin-top: 4.5rem;
+    background-color: hsl(0, 0%, 95%);
+    outline-width: 2px;
+    color: hsl(31, 77%, 52%);
+}
+
+
+.SUVs-btn{
+    display: flex;
+}
+
+.SUVsclass{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    margin-top: 4.5rem;
+    background-color: hsl(0, 0%, 95%);
+    outline-width: 2px;
+    color: hsl(184, 100%, 22%);
+}
+
+.Luxury-btn{
+    display: flex;
+}
+
+.Luxuryclass{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    margin-top: 4.5rem;
+    background-color: hsl(0, 0%, 95%);
+    outline-width: 2px;
+    color: hsl(179, 100%, 13%);
+
+}
+
+
+.sedans-p{
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.SUVs-p{
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Luxury-p{
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans-title{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    Font-size: 15px;
+}
+
+.SUV-title{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    Font-size: 15px;
+}
+
+.Luxury-title{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    Font-size: 15px;
+}
+
+@media only screen and (max-width: 600px)
+{
+.all-together-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+}   
+
+.sedans-img{
+    padding: 1rem;
+}
+
+.SUVs-img{
+    padding: 1rem;
+}
+
+.Luxury-img{
+    padding: 1rem;
+}
